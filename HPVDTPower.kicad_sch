@@ -3516,16 +3516,6 @@
 		)
 		(uuid "1dc2cfb5-61a6-4a06-a282-8ad4415a7638")
 	)
-	(text "LED\n"
-		(exclude_from_sim no)
-		(at 28.956 49.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "28c25627-339d-4fb0-9206-6b8d9e36f5b2")
-	)
 	(text "Need to check pinouts for mcu\nClear Errors\nLook into USBC"
 		(exclude_from_sim no)
 		(at 121.412 117.348 0)
@@ -3545,56 +3535,6 @@
 			)
 		)
 		(uuid "689f6fdc-d1e8-4517-a910-d119ed70d4bf")
-	)
-	(text "CS Gyro"
-		(exclude_from_sim no)
-		(at 75.946 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6eba4f54-f0cb-44e7-8af7-c3ec51a9de48")
-	)
-	(text "HX711 DOUT"
-		(exclude_from_sim no)
-		(at 78.232 64.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "76177b0b-2813-48f4-a1e8-523c6682f68f")
-	)
-	(text "MISO Gyro"
-		(exclude_from_sim no)
-		(at 77.216 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7978e85f-9744-49e0-89cb-4552f18cbfb9")
-	)
-	(text "HX711 PDSCK\n"
-		(exclude_from_sim no)
-		(at 78.994 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7ecb44d1-08ec-4164-88ed-0b63ad9abf0e")
-	)
-	(text "MCU GPIO\n"
-		(exclude_from_sim no)
-		(at 258.064 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "82579619-6265-4daf-a1eb-2bb9c70a55ae")
 	)
 	(text "Can look into an external analog digital converter, apparently the one in the mcu isnt very precise for the strain gauge signals we are reading"
 		(exclude_from_sim no)
@@ -3616,16 +3556,6 @@
 		)
 		(uuid "9063d82e-15ce-436d-9174-13cb4d390a8c")
 	)
-	(text "MCU GPIO\n"
-		(exclude_from_sim no)
-		(at 258.064 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "941cbd12-d9cf-4e06-bd4d-4dd8f08596ee")
-	)
 	(text "Status LED's for MCU\n"
 		(exclude_from_sim no)
 		(at 48.26 108.204 0)
@@ -3635,16 +3565,6 @@
 			)
 		)
 		(uuid "9b2e1250-6aa9-4780-81b8-a48519be2743")
-	)
-	(text "MOSI Gyro"
-		(exclude_from_sim no)
-		(at 77.216 57.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d6c2333-11dd-49ec-91a1-807ea3bc1b2d")
 	)
 	(text "Enable to power chip\n"
 		(exclude_from_sim no)
@@ -3676,16 +3596,6 @@
 		)
 		(uuid "b4b6f6eb-9e59-4ee4-93e7-ed46b44be161")
 	)
-	(text "INT Gyro"
-		(exclude_from_sim no)
-		(at 76.2 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b727095b-4457-41d6-8b5c-6a8b39d14b5a")
-	)
 	(text "Gyroscope"
 		(exclude_from_sim no)
 		(at 97.028 54.102 0)
@@ -3708,19 +3618,9 @@
 		)
 		(uuid "ce1bb840-fd60-4512-b463-82a1d0c30acf")
 	)
-	(text "INT_{2} Gyro\n"
-		(exclude_from_sim no)
-		(at 76.708 52.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d4a8fb12-a034-475c-9543-a4223b11c874")
-	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 18.034 14.478 0)
+		(at 14.986 14.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 57.15 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38212430-d1b8-4b6f-ad0c-c299f141349e")
-	)
-	(wire
-		(pts
 			(xy 58.42 26.67) (xy 68.58 26.67)
 		)
 		(stroke
@@ -4171,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "3e7460c6-d157-4c56-8a7f-7c3bcede6fa6")
+	)
+	(wire
+		(pts
+			(xy 52.07 118.11) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc88a73-15cb-4e8e-a38f-e3769288690e")
 	)
 	(wire
 		(pts
@@ -4882,6 +4782,56 @@
 		)
 		(uuid "ffeabe9f-f8ba-4f99-8cca-10f901c1a86f")
 	)
+	(label "PD_SCK"
+		(at 252.73 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a5a57e4-8c88-4d71-b262-fe314624cb25")
+	)
+	(label "INT1_{gyro}"
+		(at 71.12 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e5fc0c9-f816-4902-bf99-cb866d85654b")
+	)
+	(label "MISO"
+		(at 71.12 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2259a100-3b82-410f-9de6-643485dcd3ec")
+	)
+	(label "HX711_{DOUT}"
+		(at 71.12 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35ba0825-6507-4eab-a396-10160683101e")
+	)
+	(label "INT2_{gyro}"
+		(at 71.12 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b5846e9-704c-4902-ab8f-8ffe9598e06e")
+	)
 	(label "INT2_{gyro}"
 		(at 132.08 82.55 0)
 		(effects
@@ -4901,6 +4851,36 @@
 			(justify left bottom)
 		)
 		(uuid "7044af1e-005e-474a-afcf-4d0093f2695c")
+	)
+	(label "LED"
+		(at 31.75 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7156f946-3b56-4dd3-b4c6-9c3d46e1a39f")
+	)
+	(label "HX711_{DOUT}"
+		(at 252.73 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7243ac79-1d29-4945-a565-28ba0cf3ce40")
+	)
+	(label "CS_{gyro}"
+		(at 71.12 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7470c3f0-5c8a-45a5-a715-5945cf683feb")
 	)
 	(label "MISO"
 		(at 102.87 85.09 180)
@@ -4922,6 +4902,26 @@
 		)
 		(uuid "99e17196-84b6-439a-bb2f-6855dcf2b7ae")
 	)
+	(label "PD_SCK"
+		(at 71.12 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad19ce8-50be-4841-a266-e19bac928b90")
+	)
+	(label "MOSI"
+		(at 71.12 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dbe60af-fce1-4fe9-8b8d-6802449d1371")
+	)
 	(label "MOSI"
 		(at 102.87 82.55 180)
 		(effects
@@ -4933,14 +4933,14 @@
 		(uuid "a19e670f-e413-4c43-b0ec-63ad835b928d")
 	)
 	(label "LED"
-		(at 52.07 118.11 180)
+		(at 52.07 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e706814b-7876-4596-8c55-bdd63649a45e")
+		(uuid "f9917850-1ab7-437f-96e7-10ad0a5aa42b")
 	)
 	(label "EN"
 		(at 38.1 36.83 180)
@@ -6342,7 +6342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa46903-b53e-48c5-a611-42231d95ce6c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0101"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -6392,7 +6392,7 @@
 		(instances
 			(project "HPVDTPower"
 				(path "/c95e99ba-b93a-45b5-ac35-5c3043965216"
-					(reference "#PWR04")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
