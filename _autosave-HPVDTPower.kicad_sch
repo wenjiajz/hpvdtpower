@@ -3516,16 +3516,6 @@
 		)
 		(uuid "1dc2cfb5-61a6-4a06-a282-8ad4415a7638")
 	)
-	(text "LED\n"
-		(exclude_from_sim no)
-		(at 28.956 49.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "28c25627-339d-4fb0-9206-6b8d9e36f5b2")
-	)
 	(text "Need to check pinouts for mcu\nClear Errors\nLook into USBC"
 		(exclude_from_sim no)
 		(at 121.412 117.348 0)
@@ -4044,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 57.15 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38212430-d1b8-4b6f-ad0c-c299f141349e")
-	)
-	(wire
-		(pts
 			(xy 58.42 26.67) (xy 68.58 26.67)
 		)
 		(stroke
@@ -4081,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "3e7460c6-d157-4c56-8a7f-7c3bcede6fa6")
+	)
+	(wire
+		(pts
+			(xy 52.07 118.11) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc88a73-15cb-4e8e-a38f-e3769288690e")
 	)
 	(wire
 		(pts
@@ -4862,6 +4852,16 @@
 		)
 		(uuid "7044af1e-005e-474a-afcf-4d0093f2695c")
 	)
+	(label "LED"
+		(at 31.75 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7156f946-3b56-4dd3-b4c6-9c3d46e1a39f")
+	)
 	(label "HX711_{DOUT}"
 		(at 252.73 57.15 0)
 		(effects
@@ -4933,14 +4933,14 @@
 		(uuid "a19e670f-e413-4c43-b0ec-63ad835b928d")
 	)
 	(label "LED"
-		(at 52.07 118.11 180)
+		(at 52.07 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e706814b-7876-4596-8c55-bdd63649a45e")
+		(uuid "f9917850-1ab7-437f-96e7-10ad0a5aa42b")
 	)
 	(label "EN"
 		(at 38.1 36.83 180)
